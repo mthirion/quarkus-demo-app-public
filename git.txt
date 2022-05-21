@@ -1,0 +1,7 @@
+git init
+git add . --all
+git commit -m 'irst-commit'
+git remote add origin https://@github.com:sammy/my-new-project.git
+git push -u -f origin master
+
+
