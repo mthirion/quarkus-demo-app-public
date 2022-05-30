@@ -149,4 +149,18 @@
 			</properties>
 		</profile>
 	</profiles>
+	<repositories>
+            <repository>
+                <id>Redhat</id>
+                <name>Maven repository</name>
+                <url>https://maven.repository.redhat.com/ga</url>
+                <releases>
+                    <enabled>true</enabled>
+                </releases>
+                <snapshots>
+                    <enabled>false</enabled>
+                </snapshots>
+            </repository>	
+    	</repositories>
+
 </project>
